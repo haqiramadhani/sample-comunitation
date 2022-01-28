@@ -8,7 +8,7 @@ export class AppService {
   }
 
   handleUserCreated(data: CreateUserEvent) {
-    console.log('handleUserCreated - COMMUNICATION', data);
+    console.log('handlerUserCreated - COMMUNICATIONS', data);
     // TODO: Email the user...
   }
 }
